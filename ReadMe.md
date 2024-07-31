@@ -1,11 +1,11 @@
 In this project, we investigated perceptual similarity between different audio stimuli using both objective and subjective measures. Our primary objective was to assess the perceptual loss introduced by different audio compression techniques and environments.
 
 Key Findings:
-Objective Analysis with Perceptual Loss (Task 2):
+Objective Analysis with Perceptual Loss:
 
 Quantization vs. AAC Encoding: AAC encoding generally resulted in lower perceptual loss compared to quantization, particularly in genres like ambient, instrumental, and piano music. However, for poetry, quantization preserved perceptual quality better than AAC.
 Environmental Impact: The type of environment (e.g., Opera Hall, Reverb Hall, Small Office) influenced the perceived audio quality significantly, affecting the perceptual loss values.
-Subjective Analysis with MUSHRA Listening Tests (Tasks 3 and 4):
+Subjective Analysis with MUSHRA Listening Tests:
 
 Setup and Methodology: We conducted MUSHRA tests with 19 participants in a controlled environment to evaluate the perceived audio quality of various sound types and acoustic environments.
 Results: The subjective listening tests generally aligned with the objective analysis, confirming that AAC encoding provided higher perceptual quality for most audio types, except for poetry.
