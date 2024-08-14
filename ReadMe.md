@@ -1,20 +1,33 @@
-In this project, we investigated perceptual similarity between different audio stimuli using both objective and subjective measures. Our primary objective was to assess the perceptual loss introduced by different audio compression techniques and environments.
+# Perceptual Similarity Analysis of Audio Stimuli
 
-Key Findings:
-Objective Analysis with Perceptual Loss:
+## Overview
+This project investigates the perceptual similarity between different audio stimuli using both objective and subjective measures. Our primary objective was to assess the perceptual loss introduced by various audio compression techniques and environments.
 
-Quantization vs. AAC Encoding: AAC encoding generally resulted in lower perceptual loss compared to quantization, particularly in genres like ambient, instrumental, and piano music. However, for poetry, quantization preserved perceptual quality better than AAC.
-Environmental Impact: The type of environment (e.g., Opera Hall, Reverb Hall, Small Office) influenced the perceived audio quality significantly, affecting the perceptual loss values.
-Subjective Analysis with MUSHRA Listening Tests:
+## Key Findings
 
-Setup and Methodology: We conducted MUSHRA tests with 19 participants in a controlled environment to evaluate the perceived audio quality of various sound types and acoustic environments.
-Results: The subjective listening tests generally aligned with the objective analysis, confirming that AAC encoding provided higher perceptual quality for most audio types, except for poetry.
-Genre-Specific Observations:
-Poetry: Quantization was more effective, possibly due to the clarity and precision required for speech.
-Ambient and Instrumental: AAC's advanced algorithms handled the complexity and variability better, resulting in lower perceptual loss.
-Piano and Drumbeat: AAC's sophisticated compression was particularly beneficial for these genres, preserving the rich harmonics and rhythmic elements.
-Practical Implications:
-The choice of audio processing method should be tailored to the specific content type to balance file size reduction and audio quality. For complex and rich soundscapes, AAC encoding is preferable. In contrast, simpler quantization might be more suitable for spoken word content like poetry.
+### Objective Analysis: Perceptual Loss
+- **Quantization vs. AAC Encoding**:
+  - **AAC Encoding**: Demonstrated lower perceptual loss, especially in ambient, instrumental, and piano music.
+  - **Quantization**: Preserved perceptual quality better than AAC for poetry.
+- **Environmental Impact**:
+  - The type of acoustic environment (e.g., Opera Hall, Reverb Hall, Small Office) significantly affected perceived audio quality and influenced perceptual loss values.
 
-Future Directions:
-Further research could focus on refining encoding strategies and optimizing environmental settings to minimize perceptual loss in various audio applications. Understanding these factors is crucial for enhancing audio processing workflows, particularly in media and communication industries.
+### Subjective Analysis: MUSHRA Listening Tests
+- **Setup and Methodology**:
+  - Conducted MUSHRA tests with 19 participants in a controlled environment to evaluate perceived audio quality across different sound types and acoustic environments.
+- **Results**:
+  - Subjective listening tests generally aligned with objective analysis, confirming that AAC encoding provided higher perceptual quality for most audio types, except poetry.
+
+### Genre-Specific Observations
+- **Poetry**: Quantization was more effective, likely due to the need for clarity and precision in speech.
+- **Ambient and Instrumental**: AAC’s advanced algorithms better handled the complexity and variability, resulting in lower perceptual loss.
+- **Piano and Drumbeat**: AAC's sophisticated compression preserved rich harmonics and rhythmic elements, making it particularly beneficial for these genres.
+
+## Practical Implications
+- **Tailored Processing**: The choice of audio processing method should be tailored to the content type to balance file size reduction and audio quality.
+  - **AAC Encoding**: Preferable for complex and rich soundscapes.
+  - **Quantization**: More suitable for spoken word content, such as poetry.
+
+## Future Directions
+- Further research could focus on refining encoding strategies and optimizing environmental settings to minimize perceptual loss in various audio applications.
+- Understanding these factors is crucial for enhancing audio processing workflows, particularly in the media and communication industries.
